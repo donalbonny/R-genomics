@@ -36,7 +36,7 @@ Let's start with a **scatterplot**. A scatter plot provides a graphical view of 
 plot(genome_size)
 ```
 
-Each point represents a clone and the value on the x-axis is the clone index in the file, where the values on the y-axis correspond to the genome size for the clone. For any plot you can customize many features of your graphs (fonts, colors, axes, titles) through [graphic options](http://www.statmethods.net/advgraphs/parameters.html)
+Each point represents a clone and the value on the x-axis is the clone index in the file, where the values on the y-axis correspond to the genome size for the clone. For any plot you can customize many features of your graphs (fonts, colors, axes, titles) through [graphic options](http://www.statmethods.net/advgraphs/parameters.html).  
 For example, we can change the shape of the data point using `pch`.
 
 ```{r, fig.align='center'}
@@ -83,7 +83,7 @@ More recently, R users have moved away from base graphic options and towards a p
 library(ggplot2)
 ```
 
-The `ggplot()` function is used to initialize the basic graph structure, then we add to it. The basic idea is that you specify different parts of the plot, and add them together using the `+` operator.
+The `ggplot()` function is used to initialize the basic graph structure, then we add additional layers to it. The basic idea is that you specify different parts of the plot, and add them together using the `+` operator.
 
 We will start with a blank plot and will find that you will get an error, because you need to add layers.
 
